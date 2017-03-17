@@ -1,5 +1,11 @@
 body {
   font-family: Helvetica;
+  margin: 0 0 50px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 .header {
@@ -39,14 +45,16 @@ body {
 }
 
 .my-carousel {
-  max-height: 100px;
-  position: absolute;
-  left: 0;
-  bottom: 50px;
+  height: 100px;
   width: 100%;
 }
 
 .main {
+
+  &__container {
+
+  }
+
   &__left {
     text-align: center;
 
