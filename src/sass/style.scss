@@ -20,3 +20,19 @@ body {
     padding-top: 3px;
   }
 }
+
+.footer {
+  background-color: lightskyblue;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  &__text {
+    color: #1c1a44;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+  }
+}
