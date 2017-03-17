@@ -28,6 +28,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
+  border-top: 1px solid rgba(225, 230, 207, 0.36);
 
   &__text {
     color: #1c1a44;
@@ -35,4 +36,12 @@ body {
     padding: 12px;
     text-align: center;
   }
+}
+
+.my-carousel {
+  max-height: 100px;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
 }
