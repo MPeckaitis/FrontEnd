@@ -65,6 +65,16 @@ html {
     }
   }
 
+  &__right {
+    &--heading {
+      text-decoration: underline;
+    }
+
+    &--list {
+      font-size: 14px;
+    }
+  }
+
   &__address {
     &--name {
       font-size: 30px;
