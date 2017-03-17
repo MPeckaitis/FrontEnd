@@ -45,3 +45,21 @@ body {
   bottom: 50px;
   width: 100%;
 }
+
+.main {
+  &__left {
+    text-align: center;
+
+    &--foto {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+
+  &__address {
+    &--name {
+      font-size: 30px;
+    }
+  }
+}
