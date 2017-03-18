@@ -52,6 +52,39 @@
                         <p class="main__address--phone"><i class="fa fa-phone" aria-hidden="true"></i> Tel.nr: +37067608931</p>
                         <p class="main__address--email"><i class="fa fa-envelope-o" aria-hidden="true"></i> El.paštas: peckaitis.martynas@gmail.com</p>
                     </address>
+
+                    <link class="main__left--link"><a href="#myModal" data-toggle="modal" data-target="#myModal">Siūlyti darbą</a></link>
+
+                    <dialog class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">Darbo pasiūlymas</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <form>
+                                        <div class="form-group">
+                                            <label>Įmonė</label>
+                                            <input type="text" class="form-control" placeholder="Įmonė">
+                                            <label>Pareigos</label>
+                                            <input type="text" class="form-control" placeholder="Pareigos">
+                                            <label>Įmonės kontaktinis telefonas</label>
+                                            <input type="text" class="form-control" placeholder="Tel.nr">
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Uždaryti</button>
+                                    <button type="button" class="btn btn-primary">Siūsti pasiūlymą</button>
+                                </div>
+                            </div>
+                        </div>
+                    </dialog>
                 </article>
                 <article class="main__right col-sm">
                     <h5 class="main__right--heading">Išsilavinimas</h5>
